@@ -1,0 +1,13 @@
+# Hemligheter – får aldrig hamna i git
+.env
+.env.*
+*.env
+*.key
+secrets*
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+# Råloggar från körningar (kan innehålla botsvar)
+runs/
